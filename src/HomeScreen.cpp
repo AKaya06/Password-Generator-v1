@@ -143,7 +143,10 @@ void HomeScreen::buttonHandler() {
     bool number = m_numberCheck->isChecked();
     bool special = m_specialCheck->isChecked();
 
-    if (upper || lower || number || special)
+    if (upper ||
+        lower ||
+        number||
+        special)
         m_createButton->setEnabled(true);
     else
         m_createButton->setEnabled(false);
