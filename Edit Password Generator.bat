@@ -17,7 +17,7 @@ REM Setup eviroment
 SET QTDIR=%QTDIR_ROOT%
 SET QDIR=%QTDIR%
 
-START "" "%DEVENV_ROOT_2022%\devenv.exe" "C:\Repos\QT_Kurs\PasswordGenerator\PasswordGenerator.vcxproj"
+START "" "%DEVENV_ROOT_2022%\devenv.exe" "C:\Repos\Password-Generator\PasswordGenerator.vcxproj"
 
 GOTO END
 
